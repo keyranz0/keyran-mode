@@ -30,9 +30,70 @@
       border-radius: 0px 20px;
   
     }
+    label{font; 14px;font-weight: bold;}
+      input[type=text],input[type=number],input[type=date],input[type=time],input[type=password]{
+        width: 100%;
+        padding: 12px 20px;
+        border-radius: 10px;
+        margin: 8px 0;
+        color: rgb(20, 141, 247);
+        background-color: aliceblue;
+        font-size: 20px;
+      }
+      select{
+        width: 100%;
+        padding: 12px 20px;
+        border-radius: 10px;
+        margin: 8px 0;
+        color: rgb(20, 141, 247);
+        background-color: aliceblue;
+        font-size: 20px;
+      }
+      input[type=checkbox], input[type=radio]{
+        outline: 1px solid #c0c0c0;
+      }
+
   </style>
 </head>
 <body>
+ 
+  <form>
+    <label>Form Text</label>
+      <input type="text" name="txalamat" value="isikan alamat" id="txalamat" class="txalamat">
+      <label> Form Number</label>
+        <input type="number">
+      <label> Form TGL</label>
+        <input type="date">
+      <label> Form Time </label>
+        <input type="time">
+      <label> Form Pilihan</label>
+      <br>
+      <br>
+        <input type="radio" name="jnsk"> LAKIK
+        <input type="radio" name="jnsk"> CWEKK
+        <br>
+        <br>
+        <input type="checkbox">Karate
+        <input type="checkbox">Tinju
+        <input type="checkbox">Sepak Bola
+        <br>
+        <br>
+      <label> form Pilihan Lain</label>
+        <select>
+          <option disabled selected>Silahkan Pilih Warna</option>
+          <option>Merah</option>
+          <option>Biru</option>
+          <option>Putih</option>
+
+        </select>
+        <label>Form Pasword</label>
+          <input type="password" name="txpass">
+
+        <input type="submit" value="Tombol">
+
+
+
+  </form>
   <h1>Hello world this is KEYRAN </h1>
   <h2>COYYYYYYYY</h2>
   <h3>WELKAM BACK</h3>
